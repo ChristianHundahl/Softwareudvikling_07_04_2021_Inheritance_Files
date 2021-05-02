@@ -16,7 +16,7 @@ public abstract class Pille {
         this.canBeSplit = canBeSplit;
     }
 
-    //Metoder
+    //Methods
     public Pille halvering(){
         if (canBeSplit){
             weight = weight/2;

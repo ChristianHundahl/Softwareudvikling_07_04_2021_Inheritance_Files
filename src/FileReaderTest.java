@@ -1,7 +1,5 @@
 import org.junit.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
-
+//This class used purely for test purposes.
 class FileReaderTest {
 
     @Test

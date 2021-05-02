@@ -1,5 +1,6 @@
 import java.io.FileNotFoundException;
-
+/*This program is meant to function as a Pillbox, keeping track of a user's different pills.
+* This includes being able to split a pill into smaller portions for better control of the dosage*/
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         //Write a program that exemplifies the concept of inheritance. Comment the pro-
@@ -28,4 +29,3 @@ public class Main {
         FileReader.readFile();
     }
 }
-

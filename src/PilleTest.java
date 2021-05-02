@@ -1,12 +1,13 @@
-public class Test {
+public class PilleTest {
+//Test class for Pille and PilleÆske
     public static void main(String[] args) {
-        //Scanner læser tokens osm String
+        //Problem: Scanner reads all tokens as String
         String tal = "12";
         String bogstav = "tolv";
-        //System.out.println(Integer.parseInt(tal) + 1); //.parseInt = transform to int
+        //Solution: System.out.println(Integer.parseInt(tal) + 1); //.parseInt = transform to int
 
         Pille dopamin = new Mavesmerter("l", "f", "s", true, 2, "g");
-        System.out.println(dopamin.getWeight()); //Styrer adgang
+        System.out.println(dopamin.getWeight()); //Controls access
         dopamin.setWeight(-1.0);
         System.out.println(dopamin.getWeight());
 
