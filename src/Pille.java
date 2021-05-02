@@ -1,9 +1,9 @@
 public abstract class Pille {
     //Attributes
     final boolean IS_IT_MEDICINE = true;
-    private String shape;
-    private String color;
-    private String activeElement;
+    private final String shape;
+    private final String color;
+    private final String activeElement;
     private double weight;
     private boolean canBeSplit;
 

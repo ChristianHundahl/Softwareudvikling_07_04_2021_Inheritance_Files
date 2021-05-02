@@ -20,6 +20,6 @@ public class FileReader {
                 howManyWords.add(currentWord);//Add each instance of currentWord to Arraylist
             }
         }
-        System.out.println("There are " + howManyWords.size() + " words in this file."); //Print number of words by printing size of Arraylist
+        System.out.println("Der er " + howManyWords.size() + " ord i denne fil."); //Print number of words by printing size of Arraylist
     }
 }

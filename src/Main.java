@@ -10,9 +10,9 @@ public class Main {
         Mavesmerter Alminox = new Mavesmerter("aflang", "hvid", "Aluminiumaminoacetat",true, 3, "mavekatar");
         PilleÆske æske1 = new PilleÆske();
 
-        System.out.println(æske1.getPiller().size()); //
+        System.out.println("Der er " + æske1.getPiller().size() + " piller i Pilleæsken."); //
         æske1.getPiller().add(panodil);
-        System.out.println(æske1.getPiller().size());
+        System.out.println("Der er " + æske1.getPiller().size() + " pille i Pilleæsken.");
         Pille halveretPille = panodil.halvering();
 
         //Javadoc
@@ -24,7 +24,7 @@ public class Main {
             æske1.getPiller().add(halveretPille);
         }
 
-        System.out.println(æske1.getPiller().size());
+        System.out.println("Vi har halveret en pille. Der er nu " + æske1.getPiller().size() + " piller i Pilleæsken.");
 
         FileReader.readFile();
     }
