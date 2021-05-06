@@ -13,6 +13,7 @@ public class FileReader {
         Scanner scan1 = new Scanner(textToBeRead); //Create scanner to read file
         while (scan1.hasNext()){ //Loop through file using scanner
             String currentWord = scan1.next(); //We store the value of the next token in a String called currentWord
+            //howManyWords.add(currentWord);
             try {
                 Integer.parseInt(currentWord);//Parse through individual words for Integers, separating numbers from words
             }
